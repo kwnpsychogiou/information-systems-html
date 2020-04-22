@@ -1,0 +1,160 @@
+body {
+    background-image: url(/redback3.jpg);
+    background-size: cover;
+    margin-top: 1.5cm;
+}
+
+.dropdown-menu p{
+    margin: 10px
+}
+
+h2 {
+	background-color: #787878;
+	color: seashell;
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+}
+h4 {
+    text-align: center;
+}
+.form-row1 {
+    width: 45%;
+    text-align: center;
+    
+}
+
+.wrapper {
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	background-color: #e7e7e7;
+	color: black;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 140px;
+    margin-bottom: 2cm;
+}
+
+@media (max-width: 1000px) { 
+    .red_space{
+        display: none !important;
+    } 
+}
+
+#navbar-img {
+    height: 50px;
+    background-image: url(/vertical_red.png);
+  } 
+
+@media (min-width: 1001px) {   
+      #navbar-img{
+          width: 3px;
+      } 
+   }
+
+@media (min-width: 1010px) {      
+        #navbar-img{        
+          width: 60px;
+        } 
+  }
+@media (min-width: 1230px) {    
+       #navbar-img{         
+           width: 270px;
+       } 
+  }
+  @media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+#bs-example-navbar-collapse-1>ul>li {
+    margin-left: 0.3cm;
+}
+.row1 input, .row2 input {
+    padding: 120px 100px 85px 20%;
+    text-align: center; 
+    margin: 0;
+    width: 100% 
+}
+.row input {
+    text-align: center;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    width: 14cm;
+    margin-left: 8.5cm;
+    margin-right: 2.5cm;
+}
+.row2 {
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+#c1 {
+    margin-top: 1cm;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after { 
+	pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: "Ή σύρετε εδώ το αρχείο";
+    display: block;
+    margin: 0 auto;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
