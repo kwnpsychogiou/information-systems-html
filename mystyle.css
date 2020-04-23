@@ -1,7 +1,90 @@
 body {
     background-image: url(/redback3.jpg);
     background-size: cover;
-    margin-top: 1.5cm;
+    margin-top: 1.3cm;
+}
+.container {
+    border-color: rgba(245, 31, 3, 0.699);
+    margin-top: 2cm;
+    border-style: double;
+    background-color: rgba(201, 195, 195, 0.418);
+
+}
+.row2 input {
+    padding: 120px 100px 85px 20%;
+    text-align: center; 
+    margin: 0;
+    width: 100%; 
+}
+.row input {
+    text-align: center;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    width: 14cm;
+    margin-left: 8.5cm;
+    margin-right: 2.5cm;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.row2 {
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+@media (max-width: 1200px) {
+
+    .container {width: 70%} 
+    .container .row input {
+        width: 11cm;
+        margin: auto;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+        background-color: rgba(255, 255, 255, 0.842);
+    }
+    .container .row2 input {
+        margin: auto;
+        width: 100%;
+        padding: 100px 100px 80px 1%;
+        font-size: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        width: 70%;
+    }
+    .container .row input {
+        width: 8cm;
+        margin: auto;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+        background-color: rgba(255, 255, 255, 0.842);
+    }
+    .container .row2 input {
+        width: 12cm;
+        margin: auto;
+        margin-left: -3.5cm;
+        
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        width: 70%;
+    }
+    .container .row input {
+        width: 8cm;
+        margin: auto;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+        background-color: rgba(255, 255, 255, 0.842);
+    }
+    .container .row2 input {
+        width: 9cm;
+        margin: auto;
+        margin-left: -4cm;
+        
+    }
+    .files::before {
+        font-size: x-small;
+        text-align: center;
+    }
 }
 
 .dropdown-menu p{
@@ -9,7 +92,7 @@ body {
 }
 
 h2 {
-	background-color: #787878;
+	background-color: #787878dc;
 	color: seashell;
 	text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +114,7 @@ h4 {
 
 button {
 	text-align: center;
-	background-color: #e7e7e7;
+	background-color: #ebe5e5d8;
 	color: black;
 	font-size: 20px;
 	border-radius: 8px;
@@ -67,7 +150,7 @@ button {
            width: 270px;
        } 
   }
-  @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }
@@ -102,30 +185,13 @@ button {
 #bs-example-navbar-collapse-1>ul>li {
     margin-left: 0.3cm;
 }
-.row1 input, .row2 input {
-    padding: 120px 100px 85px 20%;
-    text-align: center; 
-    margin: 0;
-    width: 100% 
-}
-.row input {
-    text-align: center;
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
-    width: 14cm;
-    margin-left: 8.5cm;
-    margin-right: 2.5cm;
-}
-.row2 {
-    margin-left: 5cm;
-    margin-right: 5cm;
-}
+
 #c1 {
     margin-top: 1cm;
 }
 .files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
     -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
-    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #7d9294;
  }
 .files{ position:relative}
 .files:after { 
